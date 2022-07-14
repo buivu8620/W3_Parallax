@@ -1,0 +1,59 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+  .header__heading {
+    font-size: 19px;
+  }
+  .about {
+    width: 90%;
+    margin: 0 5%;
+    padding: 32px 0;
+  }
+  .my-work {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .load-more {
+    margin-top: 16px;
+  }
+  .contact-main {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 740px) {
+  .navbar {
+    width: 100%;
+    background-color: #000;
+    justify-content: space-between;
+  }
+  .item {
+    width: 301%;
+  }
+  .search-icon {
+    color: #777;
+  }
+  .about {
+    padding: 16px 0;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .about__details {
+    flex-direction: column;
+  }
+  .avatar {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  .my-work {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .my-work-item {
+    width: 47%;
+  }
+  .contact-form {
+    flex-direction: column;
+  }
+}
